@@ -9,3 +9,6 @@ The Hexapode is my first interesting project ever, and i gave 6 month, as indica
 
 Copyright : 
 None, you can take the pictures but mention me.
+
+IMPORTANT :
+You have to unzip the folder to make the website works well.
