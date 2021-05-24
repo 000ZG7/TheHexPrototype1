@@ -1,0 +1,124 @@
+<html>
+<head>
+	<link rel="icon" type="image/png" href="Hexapod_Min_angle.png" />
+</head>
+<body>
+<div class="header">
+	<div class="Firsthead">
+		<a class="prologue" href="#prologue">PROLOGUE</a>
+	</div>
+
+	<div class="Secondhead">
+		
+	</div>
+
+	<div class="Thirdhead">
+		
+	</div>
+</div>
+<div class="page">
+	<scroll-container>
+		<scroll-page><img class="mina" src="Hexapode_HEX_text2.png"></scroll-page>
+		<scroll-page><img class="minb" src="Hexapod_Min_angle.png"></scroll-page>
+		<scroll-page id="prologue"><img class="minc" src="Hexapod_Paw.png"></scroll-page>
+	</scroll-container>	
+</div>
+</body>
+</html>
+
+<style type="text/css">
+
+.header{
+	background: black;
+	width: 100%;
+	height: 125px;
+	display: flex;
+	flex-direction: row;
+}
+.Firsthead{
+	width: 96%;
+	height: 100px;
+	transition: 1s;
+	margin: 8px;
+		flex-direction: row;
+}
+
+.Firsthead:hover{
+	background: #363636;
+	width: 98%;
+	height: 110px;
+}
+.prologue{
+	text-decoration: none;
+	margin-left: 250px;
+	margin-top: 50px;
+}
+.Secondhead{
+	width: 96%;
+	height: 100px;
+	transition: 1s;
+	margin: 8px;
+		flex-direction: row;
+}
+
+.Secondhead:hover{
+	background: #363636;
+	width: 98%;
+	height: 110px;
+}
+.Thirdhead{
+	width: 96%;
+	height: 100px;
+	transition: 1s;
+	margin: 8px;
+		flex-direction: row;
+}
+
+.Thirdhead:hover{
+	background: #363636;
+	width: 98%;
+	height: 110px;
+}
+.page{
+	display: flex;
+	background: black;
+	height: 2000px;
+	width: 100%;
+	margin-top: 10px;
+}
+body{
+	background: #363636;
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden; 
+
+}
+scroll-container {
+  display: block;
+  width: 99.6%;
+  height: 700px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+scroll-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-size: 5em;
+  color: white;
+  margin-top: 200px;
+}
+.mina{
+	width: 100%;
+	height: auto;
+}
+.minb{
+	width: 75%;
+	height: auto;
+}
+.minc{
+	width: 100%;
+	height: auto;
+}
+</style>
